@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+header{
+    margin: 40px 40px 0 76px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.link {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.link-header {
+    color: #000;
+    font-size: 24px;
+    cursor: pointer;
+    font-weight: 300;
+    margin-right: 23px;
+    color: #98909C;
+}
+
+.recodeJr-logo {
+    width: 120px;
+    height: 50px;
+}
+
+.recode-logo {
+    width: 300px;
+    height: 300px;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 100px;
+    margin-bottom: 3rem;
+    line-height: 29px;
+    color: #021d1d;
+}
+
+.subtitle {
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 0.5em;
+    color: #023737;
+}
+
+.paragraph {
+    font-weight: 300;
+    font-size: 24px;
+    margin-bottom: 1em;
+    line-height: 29px;
+    color: #98909C;
+}
+
+.aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30em;
+    height:35em;
+}
+
+.section {
+    width: 40em;
+    height: 35em;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+
+.registrationButton {
+    cursor: pointer;
+    background: #0eaea4;
+    border-radius: 20.5px;
+    width: 170px;
+    height: 41px;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.registrationButton:hover{
+    background: rgb(26, 235, 162);
+}
+
+.registrationButton:active{
+    opacity: 0.5;
+}
+
+.footer{
+    width: 100vw;
+    height: 10px;
+    background: rgb(26, 235, 162)
+}
+
+@media screen and (max-width:430px){
+    header{
+        display:none;
+    }
+
+    p{
+        display: none;
+    }
+
+    .recodeJr-logo{
+        display:none
+    }
+
+    .recode-logo{
+        margin: 149px 22px 0 14px;
+        width: 354px;
+        height: 317px;
+    }
+
+    aside{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .title{
+        width: 263px;
+        height: 52px;
+        font-size: 50px;
+        font-weight: 900;
+        color: #021d1d;
+    }
+
+    .subtitle{
+        display: none;
+    }
+
+    .footer{
+        display: none;
+    }
+
+    .body{
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+}
